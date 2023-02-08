@@ -3,7 +3,12 @@ import "./Exerciser.scss";
 
 const Exerciser = () => {
   return (
-    <div id="prvi" height="200">Exerciser</div>
+    <div id="main">
+
+        <div className="left-side">Lijevi</div>
+
+        <div className="right-side">Desni</div>
+    </div>
   )
 }
 
