@@ -2,3 +2,81 @@
   display: flex;
   justify-content: space-between;
 }
+
+.left-side {
+  padding: 1.2rem;
+  flex: 3;
+}
+
+.right-side {
+  flex: 1;
+}
+
+.main-text {
+  //display:flex;
+  //flex-direction: column;
+  gap: 2rem;
+  font-size: 6rem;
+  font-weight: bold;
+  color: white;
+  text-overflow: inherit;
+}
+
+.other_text {
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+  //text-shadow: 4px 4px 0 red;
+}
+
+.transparent_text {
+  color: transparent;
+  -webkit-text-stroke: 1px red;
+  text-shadow: 0px 0px 4px white;
+}
+
+.main_exerciser_pic {
+  position: absolute;
+  width: 40rem;
+  height: auto;
+  top: 6rem;
+  right: 0rem;
+  //dodaj one krugove kak si na portfolio
+  z-index: 500;
+}
+
+.rectangle_dark {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  z-index: 10;
+  height: 80rem;
+}
+
+.rectangle_light {
+  position: absolute;
+  top: 0rem;
+  left: 55rem;
+  height: 80rem;
+  z-index: 5;
+}
+
+@media screen and (min-width: 1920px) {
+
+  .rectangle_dark {
+    position: absolute;
+    top: -2rem;
+    right: 0rem;
+    z-index: 10;
+    height: 80rem;
+  }
+  
+  .rectangle_light {
+    position: absolute;
+    top: 0rem;
+    left:74rem;
+    height: 80rem;
+    z-index: 5;
+  }
+ 
+}
