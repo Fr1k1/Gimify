@@ -1,5 +1,6 @@
 import './App.scss';
 import Exerciser from './Components/Exerciser/Exerciser';
+import Partners from './Components/Partners/Partners';
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
     <div>
       <Exerciser />
-
+      <Partners/>
     </div>)
 }
 

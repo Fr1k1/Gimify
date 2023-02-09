@@ -1,0 +1,51 @@
+$grey: #919191;
+
+#main_div {
+  background-color: $grey;
+  z-index: 1200;
+  position: relative;
+  width: 100%;
+  //top:5rem;
+  height: fit-content;
+  height: 15rem;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.partner_images {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  //space between druga alternativa
+  gap: 5rem;
+
+  img {
+    //margin-left: 3rem;
+    margin-top: 2.5rem;
+  }
+}
+
+.nike_logo {
+  width: 15rem;
+  height: 60%;
+}
+
+.adidas_logo {
+  width: 12rem;
+  height: 60%;
+}
+
+.gymshark_logo {
+  width: 20rem;
+  height: 60%;
+}
+
+.polleosport_logo {
+  width: 20rem;
+  height: 60%;
+}
