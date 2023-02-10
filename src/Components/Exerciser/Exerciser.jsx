@@ -10,17 +10,17 @@ const Exerciser = () => {
   return (
     <div id="main">
 
-      <div className="left-side">
-        <Header />
 
-        <div className="main-text">
+      <Header />
 
-          <div>
-            <span className='transparent_text'>LAVE</span> <br />
-            <span className='other_text'>USTANI, <br /> ZAPNI <br /> I KRENI</span>
-          </div>
+      <div className="main-text">
+
+        <div>
+          <span className='transparent_text'>LAVE</span> <br />
+          <span className='other_text'>USTANI, <br /> ZAPNI <br /> I KRENI</span>
         </div>
       </div>
+
 
       <div className="right-side">
 

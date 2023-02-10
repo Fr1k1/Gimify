@@ -5,9 +5,19 @@ $crvena: #820000;
   width: 5rem;
   height: 5rem;
   margin-bottom: 2rem;
+  
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
+
+.header {
+  img {
+    float:left;
+    width: 5rem;
+  }
+}
+
+

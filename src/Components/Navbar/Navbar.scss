@@ -1,6 +1,15 @@
 $bijela: #ffff;
 $crvena: #820000;
 
+.navbar_parent {
+    //background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //top:-2rem;
+    
+}
+
 
 #navbar {
     list-style: none;
@@ -8,6 +17,11 @@ $crvena: #820000;
     gap: 2rem;
     color: $bijela;
     z-index: 15000;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    
+    
   
     a {
       text-decoration: none;

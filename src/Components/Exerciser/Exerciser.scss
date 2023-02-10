@@ -1,15 +1,7 @@
 #main {
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-side {
   padding: 1.2rem;
-  flex: 3;
-}
 
-.right-side {
-  flex: 1;
+  justify-content: space-between;
 }
 
 .main-text {
@@ -62,7 +54,6 @@
 }
 
 @media screen and (min-width: 1920px) {
-
   .rectangle_dark {
     position: absolute;
     top: -2rem;
@@ -70,13 +61,13 @@
     z-index: 10;
     height: 80rem;
   }
-  
-  .rectangle_light {    //responzivnost ovog oblika je trenutno losa kod responzivnosti
+
+  .rectangle_light {
+    //responzivnost ovog oblika je trenutno losa kod responzivnosti
     position: absolute;
     top: 0rem;
-    left:74rem;
+    left: 74rem;
     height: 80rem;
     z-index: 5;
   }
- 
 }
