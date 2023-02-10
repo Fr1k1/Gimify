@@ -1,0 +1,25 @@
+$bijela: #ffff;
+$crvena: #820000;
+
+
+#navbar {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: $bijela;
+    z-index: 15000;
+  
+    a {
+      text-decoration: none;
+    }
+  
+    a,
+    a:visited,
+    a:active {
+      color: inherit;
+    }
+  
+    a:hover {
+      color: $crvena; //ova je pretamna, promijeniti kasnije
+    }
+  }

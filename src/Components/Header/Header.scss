@@ -11,25 +11,3 @@ $crvena: #820000;
   display: flex;
   justify-content: space-between;
 }
-
-#navbar {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  color: $bijela;
-  z-index: 1000;
-
-  a {
-    text-decoration: none;
-  }
-
-  a,
-  a:visited,
-  a:active {
-    color: inherit;
-  }
-
-  a:hover {
-    color: $crvena; //ova je pretamna, promijeniti kasnije
-  }
-}
