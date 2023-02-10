@@ -1,0 +1,82 @@
+#programs_div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  top: 2rem;
+  width: 100%;
+}
+
+.program_name {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1px black;
+  text-align: left;
+}
+
+.program_description {
+  text-align: center;
+}
+
+.program_background {
+  width: 20rem;
+  height: 20rem;
+}
+
+.program_strength_icon {
+  //ikone je potrebno premjestiti desno
+  width: 5rem;
+  // position: relative;
+  width: 5rem;
+  //left: 14rem
+}
+
+.program_cardio_icon {
+  width: 3.2rem;
+}
+
+.program_health_icon {
+  width: 3.3rem;
+}
+
+.program_fat_burning_icon {
+  width: 2.3rem;
+}
+
+.program {
+  height: 15rem;
+  width: 20rem;
+  //background-color: red;
+  background-image: url("../../assets/Rectangle_for_programs.png");
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-between;
+  z-index: 800;
+}
+
+#categories {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#button_div {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.find_more_btn {
+  margin-bottom: 1.3rem;
+  border-radius: 8px;
+  border-style: none;
+
+  &:hover {
+    background-color: grey;
+  }
+}
