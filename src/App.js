@@ -23,7 +23,7 @@ function App() {
             <div>
               <Header />
             </div>
-            <h1>Galerija</h1>
+            <Gallery/>
           </div>
 
 

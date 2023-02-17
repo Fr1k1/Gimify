@@ -4,7 +4,7 @@ import { programsData } from "../../Programs_data";
 
 
 
-//u ovom divu se nalaze programi...program je zasebna komponenta
+//u ovom divu se nalaze programi...program je zasebna komponenta (mozda kasnije)
 const Programs = () => {
     return (
         <div id='programs_div' >

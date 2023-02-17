@@ -1,0 +1,46 @@
+$background: #8a0b20;
+
+#gallery_main {
+  background-color: $background;
+  //width: 90%;
+  
+  display: flex;
+  //align-items: center; to je za iteme unutar diva
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 0;
+  img {
+    border-radius: 8px;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 1;
+  margin: 5px;
+}
+
+#ext_pic,
+#people_pic {
+  height: 30rem;
+}
+
+#runners_pic {
+  height: 45rem;
+}
+
+#dude_pic,
+#barbells_pic,
+#girl_pic {         //za ove treba malo dulje da se ucitaju, dodaj animaciju
+  height: 40rem;
+}
