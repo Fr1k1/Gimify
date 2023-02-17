@@ -1,0 +1,15 @@
+#strength_program_main {
+  margin: 0;
+}
+
+#slider {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.slider {
+  width: 70% !important; //override klase iz libraryja
+}

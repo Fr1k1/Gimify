@@ -7,6 +7,7 @@ import Programs from './Components/Programs/Programs';
 import { Route, Routes } from "react-router-dom";
 import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
+import StrengthProgram from './Components/Program_details/Strength_program/StrengthProgram';
 
 
 function App() {
@@ -16,6 +17,20 @@ function App() {
 
       <Routes>
 
+
+        <Route path="/program/Trening snage" element={
+
+          <div id='main'>
+
+            <div>
+              <Header />
+            </div>
+            <StrengthProgram/>
+          </div>
+
+
+        }></Route>
+
         <Route path="/gallery" element={
 
           <div id='main'>
@@ -23,7 +38,7 @@ function App() {
             <div>
               <Header />
             </div>
-            <Gallery/>
+            <Gallery />
           </div>
 
 

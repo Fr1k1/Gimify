@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Programs.scss";
 import { programsData } from "../../Programs_data";
+import { Link } from "react-router-dom";
 
 
 
@@ -19,7 +20,10 @@ const Programs = () => {
 
                         <div id='button_div'>
 
-                        <button className='find_more_btn' >Saznajte više</button>
+                            <Link to={"/program/" + program.naslov}>
+
+                                <button className='find_more_btn' >Saznajte više</button>
+                            </Link>
                         </div>
                     </div>
                 ))}
