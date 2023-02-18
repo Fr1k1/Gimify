@@ -10,6 +10,8 @@ const Programs = () => {
     return (
         <div id='programs_div' >
 
+
+
             <div id="categories">
 
                 {programsData.map((program, i) => (
@@ -29,6 +31,8 @@ const Programs = () => {
                 ))}
 
             </div>
+
+
 
         </div>
     )
