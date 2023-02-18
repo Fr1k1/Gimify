@@ -7,7 +7,8 @@ const Navbar = () => {
         <div className='navbar_parent'>
             <ul id='navbar'>
                 <li><Link to="/">Početna</Link></li>
-                <li><Link to="/programs">Programi</Link></li>
+                {/*<li><Link to="/programs">Programi</Link></li>*/}
+                <li><a href="#categories">Programi</a></li>
                 <li><Link to="/gallery">Galerija</Link></li>
                 <li><Link to="/contact">Kontakt</Link></li>
             </ul>

@@ -15,7 +15,7 @@ export const programsData = [
 
         naslov: "Trening snage",
 
-        opis: "Isprobajte nešto novo, postanite jači nego ikad uz sposobne trenere i najjaču ekipu uz Vas.",
+        opis: "Ako želite ojačati svoje mišiće, dobiti na masi i postati jaki onda je ovo pravi program za Vas.",
 
         pozadina: (
             <img src={background} alt="" className="program_background" />
@@ -31,7 +31,7 @@ export const programsData = [
 
         naslov: "Kardio trening",
 
-        opis: "Isprobajte nešto novo, postanite jači nego ikad uz sposobne trenere i najjaču ekipu uz Vas.",
+        opis: "Lako se umorite? Ne možete trčati i imate slabu kondiciju? Odaberite ovu vrstu programa.",
 
         pozadina: (
             <img src={background} alt="" className="program_background" />
@@ -48,7 +48,7 @@ export const programsData = [
         naslov: "Zdravlje",
 
 
-        opis: "Isprobajte nešto novo, postanite jači nego ikad uz sposobne trenere i najjaču ekipu uz Vas.",
+        opis: "Ako Vam je zdravlje na prvom mjestu te se želite zdravo hraniti i kretati, stisnite na gumb.",
 
         pozadina: (
             <img src={background} alt="" className="program_background" />
@@ -65,7 +65,7 @@ export const programsData = [
         naslov: "Mršavljenje",
 
 
-        opis: "Isprobajte nešto novo, postanite jači nego ikad uz sposobne trenere i najjaču ekipu uz Vas.",
+        opis: "Mislite da imate višak kilograma? Svi Vas čudno gledaju kada ste na plaži? Sram Vas je skinuti majicu? Stisnite gumb.",
 
         pozadina: (
             <img src={background} alt="" className="program_background" />

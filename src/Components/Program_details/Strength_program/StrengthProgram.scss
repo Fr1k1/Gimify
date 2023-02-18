@@ -47,10 +47,25 @@ h1 {
 }
 
 #program_info {
-  background-color: #D8D9CF;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  background-color: #d8d9cf;
   position: relative;
   top: 5rem;
+
   border-radius: 8px;
   margin: 0 auto;
   width: 80%;
+
+  h3 {
+    color: red;
+    font-size: x-large;
+  }
+
+  li {
+    font-size: large;
+    font-weight: bold;
+    //boja
+  }
 }

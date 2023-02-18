@@ -61,6 +61,8 @@ const Strength_program = () => {
 
         </ul>
 
+        <h3>Dodatan opis</h3>
+
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo omnis, deserunt autem esse provident quam hic nostrum natus officia eius veritatis tenetur at facilis voluptatum quasi excepturi et voluptate eveniet?</p>
 
       </div>

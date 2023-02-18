@@ -73,9 +73,11 @@
 }
 
 .find_more_btn {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.1rem;
   border-radius: 8px;
   border-style: none;
+  height: 2.5rem;
+  background-color: white;
 
   &:hover {
     background-color: grey;
