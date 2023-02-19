@@ -30,6 +30,8 @@
 
 h1 {
   margin: 0;
+  font-family: "Alegreya", serif;
+
 }
 
 #name_div {
@@ -44,6 +46,8 @@ h1 {
   border-radius: 8px;
   align-items: center;
   margin: 0 auto; //ovo je bilo vazno!!
+  font-family: "Alegreya", serif;
+
 }
 
 #program_info {
@@ -61,11 +65,15 @@ h1 {
   h3 {
     color: #f47018;
     font-size: x-large;
+    font-family: "Alegreya", serif;
+
   }
 
   li {
     font-size: large;
     font-weight: bold;
+    font-family: "Alegreya", serif;
+
     //boja
   }
 }

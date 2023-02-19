@@ -2,38 +2,37 @@ $bijela: #ffff;
 $crvena: #820000;
 
 .navbar_parent {
-    //background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    //top:-2rem;
-    
+  //background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //top:-2rem;
 }
 
-
 #navbar {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    color: $bijela;
-    z-index: 15000;
-    justify-content: center;
-    width: 50%;
-    height: 50%;
-    
-    
-  
-    a {
-      text-decoration: none;
-    }
-  
-    a,
-    a:visited,
-    a:active {
-      color: inherit;
-    }
-  
-    a:hover {
-      color: $crvena; //ova je pretamna, promijeniti kasnije
-    }
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: $bijela;
+  z-index: 15000;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  font-family: "Alegreya", serif;
+  font-family: "Courgette", cursive;
+  font-family: "Lobster", cursive;
+
+  a {
+    text-decoration: none;
   }
+
+  a,
+  a:visited,
+  a:active {
+    color: inherit;
+  }
+
+  a:hover {
+    color: $crvena; //ova je pretamna, promijeniti kasnije
+  }
+}
