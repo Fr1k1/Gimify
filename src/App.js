@@ -10,6 +10,7 @@ import Header from './Components/Header/Header';
 import StrengthProgram from './Components/Program_details/Strength_program/StrengthProgram';
 import CardioProgram from './Components/Program_details/Cardio_program/CardioProgram';
 import HealthProgram from './Components/Program_details/Health_program/HealthProgram';
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -72,6 +73,8 @@ function App() {
               <Header />
             </div>
             <Gallery />
+
+            <Footer />
           </div>
 
 
@@ -84,7 +87,7 @@ function App() {
             <div>
               <Header />
             </div>
-            <h1>Kontakt</h1>
+            <Contact />
           </div>
 
 

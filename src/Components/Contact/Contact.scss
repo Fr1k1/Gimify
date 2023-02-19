@@ -1,0 +1,30 @@
+#contact_form {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  background-color: #f47018;
+  padding: 1rem;
+  border-radius: 8px;
+
+  input {
+    border-radius: 8px;
+    height: 3rem;
+    border-style: none;
+  }
+}
+
+#send_button {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  &:hover {
+    background-color: red;
+    transform: scale(1.09);
+    transition: all 0.3s;
+  }
+}
