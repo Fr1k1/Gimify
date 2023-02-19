@@ -8,15 +8,13 @@ import ProgramName from '../../ProgramName/ProgramName';
 import ProgramInfo from '../../ProgramInfo/ProgramInfo';
 import { StrengthProgramListData } from '../../../Data/Lists_data';
 
-
-/*trebal bum 4 takva programa, ali u njima budu komponente (navbar, slider i opis) */
 const Strength_program = () => {
   return (
     <div id='strength_program_main'>
 
       <ProgramName name="Trening snage" />
 
-      <SliderComponent dataSource={StrengthProgramSliderData} /> {/*toj komponenti sad moram prosljediti koje polje da mapira svaki put */}
+      <SliderComponent dataSource={StrengthProgramSliderData} /> 
 
       <ProgramInfo description="Ovaj program namijenjen je za ljude koji žele brzo ojačati i izgledati što bolje
                 za što kraće vrijeme obzirom da se uz pravilnu prehranu i pravilno treniranje može lako

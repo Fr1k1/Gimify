@@ -9,6 +9,7 @@ import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
 import StrengthProgram from './Components/Program_details/Strength_program/StrengthProgram';
 import CardioProgram from './Components/Program_details/Cardio_program/CardioProgram';
+import HealthProgram from './Components/Program_details/Health_program/HealthProgram';
 
 
 function App() {
@@ -41,6 +42,19 @@ function App() {
               <Header />
             </div>
             <CardioProgram />
+          </div>
+
+
+        }></Route>
+
+        <Route path="/program/Zdravlje" element={
+
+          <div id='main'>
+
+            <div>
+              <Header />
+            </div>
+            <HealthProgram />
           </div>
 
 

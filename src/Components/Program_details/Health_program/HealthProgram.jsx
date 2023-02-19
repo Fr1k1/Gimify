@@ -1,24 +1,22 @@
 import React from 'react'
-import { CardioProgramListData } from '../../../Data/Lists_data';
-import { CardioProgramSliderData } from '../../../Data/Sliders_data';
+import { HealthProgramListData } from '../../../Data/Lists_data';
+import { HealthProgramSliderData } from '../../../Data/Sliders_data';
 import ProgramInfo from '../../ProgramInfo/ProgramInfo';
 import ProgramName from '../../ProgramName/ProgramName';
 import SliderComponent from '../../Slider/Slider';
-import "./CardioProgram.scss";
+import "./HealthProgram.scss";
 
-
-
-const CardioProgram = () => {
+const HealthProgram = () => {
     return (
         <div>
 
-            <ProgramName name="Kardio trening" />
-            <SliderComponent dataSource={CardioProgramSliderData} />
+            <ProgramName name="Trening za zdravlje" />
+            <SliderComponent dataSource={HealthProgramSliderData} />
 
             <ProgramInfo description="Ovaj program namijenjen je za ljude koji žele steći kondiciju i za one
          koji ne mogu trčati."
 
-                items={CardioProgramListData}
+                items={HealthProgramListData}
 
             /*dodaj description i name isto u neka polja onda */
             />
@@ -26,4 +24,4 @@ const CardioProgram = () => {
     )
 }
 
-export default CardioProgram
+export default HealthProgram

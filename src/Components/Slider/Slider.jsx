@@ -14,7 +14,7 @@ const SliderComponent = (props) => {
                 {props.dataSource.map((slide, index) =>
                     <div
                         key={index}>
-                        {/*<h2>{slide.title}</h2>*/}
+                        
                         <img src={slide.image} alt="" className='slider_image' />
 
                     </div>)}

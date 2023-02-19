@@ -1,9 +1,14 @@
 export const StrengthProgramListData = [
-    "Prvi komad liste", "drugi komad liste", "treci komad liste"
-    //ove podatke postavi u posebni file u mapu data za bolji kod
+    "Već nakon nekoliko dana vidi se napredak", "Brzo dobivanje mase", "Razvijanje mišića"
+    
 ];
 
 export const CardioProgramListData = [
-    "Prvi komad liste kardio", "drugi komad liste kardio", "treci komad liste kardio"
-    //ove podatke postavi u posebni file u mapu data za bolji kod
+    "Steknite kondiciju", "Naučite pravilno disati i trčati"
+];
+
+export const HealthProgramListData = [
+    "Razgibajte svoje tijelo kako bi održali zdravlje", 
+    "Naučite više o zdravoj prehrani", 
+    "treci komad liste zdravlje"
 ];
