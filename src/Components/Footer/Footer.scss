@@ -1,19 +1,61 @@
-#red_line {
-    background-color: #802424;
-    position: relative;
-    top:8rem;
-    width: 98%;
-    height: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 8px;
+#footer_div {
+  position: relative;
+  top: 5rem;
 
+  h3 {
+    margin: 0;
+    position: relative;
+    top: 2rem;
+    //padding-left: 1.2rem;
+    
+  }
+}
+
+#red_line {
+  background-color: #802424;
+  position: relative;
+  top: 2rem;
+  width: 98%;
+  height: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 8px;
 }
 
 #icons {
-    position: relative;
-    top:10rem;
-
+  position: relative;
+  top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
 }
 
+.ikona {
+  height: 3rem;
+  padding-bottom: 2rem;
+}
+
+#footer_logo {
+    display: flex;
+    position: relative;
+    top:2rem;
+    height: 3rem;
+}
+
+#main_footer {
+    display: flex;
+    //justify-content: space-between;
+    justify-content: center;
+    gap:3rem;
+    text-align: center;
+    align-items: center;
+    
+    flex-direction: row;
+}
+
+.text {
+    text-decoration: none;
+    color:orangered;
+}

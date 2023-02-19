@@ -10,7 +10,7 @@ const Partners = () => {
     return (
         <div id='main_div'>
 
-            <h3 className='partners_text'>Naši partneri:</h3>
+          {/*  <h3 className='partners_text'>Naši partneri:</h3>*/}
 
             <div className='partner_images'>
                 <img src={NikeLogo} alt="" className='nike_logo' />
