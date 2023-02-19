@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Programs.scss";
-import { programsData } from "../../Programs_data";
+import { programsData } from "../../Data/Programs_data";
 import { Link } from "react-router-dom";
 
 

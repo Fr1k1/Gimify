@@ -1,71 +1,29 @@
 import React from 'react'
 import "./StrengthProgram.scss";
-import Slider from 'react-animated-slider';
+
 import 'react-animated-slider/build/horizontal.css';
-import StrengthPic from "../../../assets/strength_training.jpg";
-import StrengthPic2 from "../../../assets/strength_training2.jpg";
-import StrengthPic3 from "../../../assets/strength_training3.jpg";
+import SliderComponent from '../../Slider/Slider';
+import {StrengthProgramSliderData } from '../../../Data/Sliders_data';
+import ProgramName from '../../ProgramName/ProgramName';
+import ProgramInfo from '../../ProgramInfo/ProgramInfo';
+import { StrengthProgramListData } from '../../../Data/Lists_data';
 
 
-const slides = [      //ove podatke postavi u posebni file u mapu data za bolji kod
-  {
-    title: 'First item', description: 'Lorem ipsum',
-    image: StrengthPic
-  },
-  {
-    title: 'Second item', description: 'Lorem ipsum',
-    image: StrengthPic2
-  },
-
-  {
-    title: 'First item', description: 'Lorem ipsum',
-    image: StrengthPic3
-  },
-];
-
-
+/*trebal bum 4 takva programa, ali u njima budu komponente (navbar, slider i opis) */
 const Strength_program = () => {
   return (
     <div id='strength_program_main'>
 
-      <div id="name_div">
+      <ProgramName name="Trening snage" />
 
-        <h1>Program snage</h1>
-      </div>
+      <SliderComponent dataSource={StrengthProgramSliderData} /> {/*toj komponenti sad moram prosljediti koje polje da mapira svaki put */}
 
-      <div id='slider'> {/*ovo izdvojiti u posebnu komponentu*/}
+      <ProgramInfo description="Ovaj program namijenjen je za ljude koji žele brzo ojačati i izgledati što bolje
+                za što kraće vrijeme obzirom da se uz pravilnu prehranu i pravilno treniranje može lako
+                upravljati nečijom masom."
 
-
-        <Slider infinite={true} autoplay={2000}>
-          {slides.map((slide, index) =>
-            <div
-              key={index}>
-              {/*<h2>{slide.title}</h2>*/}
-              <img src={slide.image} alt="" className='slider_image' />
-
-            </div>)}
-        </Slider>
-
-      </div>
-
-
-      <div id="program_info">
-
-        <h3>Pogodnosti programa:</h3>
-        <br />
-
-        <ul>
-          <li>Prva</li>
-          <li>Druga</li>
-          <li>Treca</li>
-
-        </ul>
-
-        <h3>Dodatan opis</h3>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo omnis, deserunt autem esse provident quam hic nostrum natus officia eius veritatis tenetur at facilis voluptatum quasi excepturi et voluptate eveniet?</p>
-
-      </div>
+        items={StrengthProgramListData}
+      />
     </div>
   )
 }

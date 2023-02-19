@@ -1,8 +1,8 @@
-import strength_icon from "./assets/strength_icon.png";
-import fire_icon from "./assets/fire_icon.png";
-import health_icon from "./assets/health_icon.png";
-import cardio_icon from "./assets/cardio_icon.png";
-import background from "./assets/Rectangle_6.png";
+import strength_icon from "../../src/assets/strength_icon.png";
+import fire_icon from "../../src/assets/fire_icon.png";
+import health_icon from "../../src/assets/health_icon.png";
+import cardio_icon from "../../src/assets/cardio_icon.png";
+import background from "../../src/assets/Rectangle_6.png";
 
 
 

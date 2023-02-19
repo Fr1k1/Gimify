@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
 import StrengthProgram from './Components/Program_details/Strength_program/StrengthProgram';
+import CardioProgram from './Components/Program_details/Cardio_program/CardioProgram';
 
 
 function App() {
@@ -20,16 +21,34 @@ function App() {
 
         <Route path="/program/Trening snage" element={
 
+          <div id='main'>           {/*ovo sve na kraju odvoji u jos posebne komponente
+                                      da tu budu samo stranice*/}
+
+            <div>
+              <Header />
+            </div>
+            <StrengthProgram />
+          </div>
+
+
+        }></Route>
+
+        <Route path="/program/Kardio trening" element={
+
           <div id='main'>
 
             <div>
               <Header />
             </div>
-            <StrengthProgram/>
+            <CardioProgram />
           </div>
 
 
         }></Route>
+
+
+
+
 
         <Route path="/gallery" element={
 
@@ -43,20 +62,6 @@ function App() {
 
 
         }></Route>
-
-      { /* <Route path="/programs" element={
-
-          <div id='main'>
-
-            <div>
-              <Header />
-            </div>
-            <h1>Programs</h1>
-          </div>
-
-
-        }></Route>
-      */}
 
         <Route path="/contact" element={
 
