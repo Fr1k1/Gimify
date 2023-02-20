@@ -10,7 +10,6 @@ const ProgramInfo = (props) => {
 
             <List items={props.items} />
 
-
             <h3>Dodatan opis</h3>
 
             <p>{props.description}</p>

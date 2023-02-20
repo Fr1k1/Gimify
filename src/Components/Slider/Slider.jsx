@@ -11,13 +11,16 @@ const SliderComponent = (props) => {
 
 
             <Slider infinite={true} autoplay={2000}>
-                {props.dataSource.map((slide, index) =>
+
+            {props.dataSource.map((item, index) =>
                     <div
                         key={index}>
                         
-                        <img src={slide.image} alt="" className='slider_image' />
+                        <img src={item} alt="" className='slider_image' />
 
                     </div>)}
+
+                
             </Slider>
 
         </div>

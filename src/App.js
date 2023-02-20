@@ -7,11 +7,14 @@ import Programs from './Components/Programs/Programs';
 import { Route, Routes } from "react-router-dom";
 import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
-import StrengthProgram from './Components/Program_details/Strength_program/StrengthProgram';
-import CardioProgram from './Components/Program_details/Cardio_program/CardioProgram';
 import HealthProgram from './Components/Program_details/Health_program/HealthProgram';
 import Contact from './Components/Contact/Contact';
+import ProgramInfo from './Components/ProgramInfo/ProgramInfo';
+import ProgramDetails from './Components/Program_details/ProgramDetails';
+import { programDetails } from './Data/Program_details';
 
+
+/*ove programe jos nemrem maknuti iz importa jer je na njima css */
 
 function App() {
   return (
@@ -20,33 +23,12 @@ function App() {
 
       <Routes>
 
+        <Route path="/program/:name"
+          element={
 
-        <Route path="/program/Trening snage" element={
-
-          <div id='main'>           {/*ovo sve na kraju odvoji u jos posebne komponente
-                                      da tu budu samo stranice*/}
-
-            <div>
-              <Header />
-            </div>
-            <StrengthProgram />
-          </div>
-
-
-        }></Route>
-
-        <Route path="/program/Kardio trening" element={
-
-          <div id='main'>
-
-            <div>
-              <Header />
-            </div>
-            <CardioProgram />
-          </div>
-
-
-        }></Route>
+            <div id="main">
+          <Header/>
+          <ProgramDetails programDetails={programDetails} /></div>}></Route>
 
         <Route path="/program/Zdravlje" element={
 
@@ -60,8 +42,6 @@ function App() {
 
 
         }></Route>
-
-
 
 
 
