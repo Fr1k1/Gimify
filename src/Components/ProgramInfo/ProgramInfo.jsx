@@ -4,7 +4,7 @@ import "./ProgramInfo.scss";
 
 const ProgramInfo = (props) => {
     return (
-        <div id="program_info">
+        <div>
 
             <h3>Pogodnosti programa:</h3>
 

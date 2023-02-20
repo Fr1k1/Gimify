@@ -7,14 +7,10 @@ import Programs from './Components/Programs/Programs';
 import { Route, Routes } from "react-router-dom";
 import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
-import HealthProgram from './Components/Program_details/Health_program/HealthProgram';
 import Contact from './Components/Contact/Contact';
-import ProgramInfo from './Components/ProgramInfo/ProgramInfo';
 import ProgramDetails from './Components/Program_details/ProgramDetails';
 import { programDetails } from './Data/Program_details';
 
-
-/*ove programe jos nemrem maknuti iz importa jer je na njima css */
 
 function App() {
   return (
@@ -30,21 +26,7 @@ function App() {
           <Header/>
           <ProgramDetails programDetails={programDetails} /></div>}></Route>
 
-        <Route path="/program/Zdravlje" element={
-
-          <div id='main'>
-
-            <div>
-              <Header />
-            </div>
-            <HealthProgram />
-          </div>
-
-
-        }></Route>
-
-
-
+        
         <Route path="/gallery" element={
 
           <div id='main'>

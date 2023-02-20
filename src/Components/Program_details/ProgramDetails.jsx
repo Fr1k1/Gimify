@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import List from '../List/List';
+
 import ProgramInfo from '../ProgramInfo/ProgramInfo';
 import ProgramName from '../ProgramName/ProgramName';
 import SliderComponent from '../Slider/Slider';
@@ -10,7 +10,7 @@ const ProgramDetails = ({ programDetails }) => {
 
   let { name } = useParams()
   return (
-    <div id="program_info">
+    <div >
 
       {programDetails.filter((program) => program.name === name)
         .map((program, index) => (
@@ -18,11 +18,15 @@ const ProgramDetails = ({ programDetails }) => {
           <div key={index}>
 
 
-            <ProgramName name={program.name} /> {/*ovo funkcionira*/}
+            <ProgramName name={program.name} /> 
 
             <SliderComponent dataSource={program.slider_images} />
 
+            <div id="program_info">
+
             <ProgramInfo description={program.opis} items={program.list_items} />
+
+            </div>
           </div>
 
         )
