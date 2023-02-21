@@ -28,3 +28,21 @@
     transition: all 0.3s;
   }
 }
+
+.leaflet-container {
+  width: 80%;
+  height: 30rem;
+  //justify-content: center;
+  //align-items: center;
+  //display: flex !important;
+  //padding-top: 3rem;
+  border-radius: 8px;
+
+}
+
+#map_div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}

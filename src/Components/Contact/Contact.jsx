@@ -1,28 +1,29 @@
 import React, { useRef } from 'react'
 import "./Contact.scss";
 import emailjs from "@emailjs/browser";
+import Map from '../Map/Map';
 
 const Contact = () => {
 
-    const form=useRef();
+    const form = useRef();
 
     const sendEmail = (e) => {
         console.log("Pozivam se");
         e.preventDefault();
-    
+
         emailjs.sendForm('service_hdkrryu', 'template_wcw299c', form.current, 'Z_0-Cs6CmcZEESvvj')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      };
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
 
     return (
         <div>
 
-        <h3>Napišite što Vas zanima</h3>
+            <h3>Napišite što Vas zanima</h3>
 
             <form action="" id="contact_form" ref={form}>
 
@@ -38,6 +39,14 @@ const Contact = () => {
 
 
             </form>
+
+            <br /><br />
+
+            <h3>Želite nas kontaktirati uživo? Posjetite nas na lokaciji:</h3>
+
+
+            <Map />
+
         </div>
     )
 }
