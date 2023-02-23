@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import "./Contact.scss";
 import emailjs from "@emailjs/browser";
 import Map from '../Map/Map';
+import Footer from "../Footer/Footer"
 
 const Contact = () => {
 
@@ -46,6 +47,8 @@ const Contact = () => {
 
 
             <Map />
+
+            <Footer/>
 
         </div>
     )

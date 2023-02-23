@@ -25,12 +25,8 @@ const Navbar = () => {
         <div className='navbar_parent'>
             <ul id='navbar'>
                 <li><Link to="/">Početna</Link></li>
-                {/*} <li><Link to="http://localhost:3000/#categories">Programi</Link></li>
-               
-               */
-                }
 
-                <li> <Link to="http://localhost:3000/#programs_div" onClick={OtherPage}>Programi</Link></li>
+                <li><Link to="http://localhost:3000/#programs_div" onClick={OtherPage}>Programi</Link></li>
                 <li><Link to="/gallery">Galerija</Link></li>
                 <li><Link to="/contact">Kontakt</Link></li>
 

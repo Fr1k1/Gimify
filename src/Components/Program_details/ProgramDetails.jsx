@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-
+import Footer from '../Footer/Footer';
 import ProgramInfo from '../ProgramInfo/ProgramInfo';
 import ProgramName from '../ProgramName/ProgramName';
 import SliderComponent from '../Slider/Slider';
@@ -27,6 +27,8 @@ const ProgramDetails = ({ programDetails }) => {
             <ProgramInfo description={program.opis} items={program.list_items} />
 
             </div>
+
+            <Footer/>
           </div>
 
         )
