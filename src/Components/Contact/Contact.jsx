@@ -9,7 +9,7 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-        console.log("Pozivam se");
+        //console.log("Pozivam se");
         e.preventDefault();
 
         emailjs.sendForm('service_hdkrryu', 'template_wcw299c', form.current, 'Z_0-Cs6CmcZEESvvj')
@@ -24,7 +24,11 @@ const Contact = () => {
     return (
         <div>
 
+        <div className='text_decoration_div'>
+
             <h3>Napišite što Vas zanima</h3>
+
+            </div>
 
             <form action="" id="contact_form" ref={form}>
 
@@ -42,8 +46,15 @@ const Contact = () => {
             </form>
 
             <br /><br />
+            <br />
+
+            <div className='text_decoration_div'>
 
             <h3>Želite nas kontaktirati uživo? Posjetite nas na lokaciji:</h3>
+
+            <br />
+
+            </div>
 
 
             <Map />

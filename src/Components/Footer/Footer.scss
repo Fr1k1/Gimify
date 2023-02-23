@@ -7,7 +7,6 @@
     position: relative;
     top: 2rem;
     //padding-left: 1.2rem;
-    
   }
 }
 
@@ -30,6 +29,10 @@
   flex-direction: row;
   justify-content: center;
   gap: 5rem;
+
+  a:visited {
+    color: black;
+  }
 }
 
 .ikona {
@@ -38,26 +41,29 @@
 }
 
 #footer_logo {
-    display: flex;
-    position: relative;
-    top:2rem;
-    height: 3rem;
+  display: flex;
+  position: relative;
+  top: 2rem;
+  height: 3rem;
 }
 
 #main_footer {
-    display: flex;
-    //justify-content: space-between;
-    justify-content: center;
-    gap:3rem;
-    text-align: center;
-    align-items: center;
-    
-    flex-direction: row;
+  display: flex;
+  //justify-content: space-between;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+  align-items: center;
+
+  flex-direction: row;
 }
 
 .text {
-    text-decoration: none;
-    color:orangered;
-  font-family: 'Alegreya', serif;
+  text-decoration: none;
+  color: orangered;
+  font-family: "Alegreya", serif;
 
+  &:hover {
+    color: black;
+  }
 }

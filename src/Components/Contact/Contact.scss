@@ -7,11 +7,24 @@
   background-color: #f47018;
   padding: 1rem;
   border-radius: 8px;
+  position: relative;
+  top: 3rem;
+  //bottom: 2rem;
 
   input {
     border-radius: 8px;
     height: 3rem;
     border-style: none;
+    padding-left: 0.5rem;
+  }
+
+  textarea {
+    padding-left: 0.5rem;
+    border-radius: 8px;
+  }
+
+  ::placeholder {
+    font-family: "Alegreya", serif;
   }
 }
 
@@ -32,12 +45,7 @@
 .leaflet-container {
   width: 80%;
   height: 30rem;
-  //justify-content: center;
-  //align-items: center;
-  //display: flex !important;
-  //padding-top: 3rem;
   border-radius: 8px;
-
 }
 
 #map_div {
@@ -45,4 +53,21 @@
   justify-content: center;
   padding-bottom: 3rem;
   padding-top: 2rem;
+}
+
+.text_decoration_div {
+  text-align: center;
+  position: relative;
+  top: 1rem;
+  background-color: #802424;
+  width: 90%;
+  margin: 0 auto;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 8px;
+  font-family: "Alegreya", serif;
+  font-weight: bold;
+  font-size: x-large;
 }

@@ -10,7 +10,7 @@ const Programs = () => {
 
             <div id="categories">
                 {programsData.map((program, i) => (     /*ovak trebam napraviti i za detalje bas*/
-                    <Program ikona={program.ikona} naslov={program.naslov} opis={program.opis} />
+                    <Program ikona={program.ikona} naslov={program.naslov} opis={program.opis} key={i} />
                 ))}
             </div>
 
