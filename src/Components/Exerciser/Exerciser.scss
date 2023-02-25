@@ -65,7 +65,7 @@
   }
 
   .rectangle_light {
-    //responzivnost ovog oblika je trenutno losa kod responzivnosti
+    
     position: absolute;
     top: 0rem;
     left: 74rem;
@@ -85,7 +85,14 @@
   }
 
   .main_exerciser_pic {
-    height: 20rem;
-    width: auto;
+    position: static;
+    width: 25rem;
+    right: 0rem;
+    
+  }
+
+  .main-text {
+    position: relative;
+    z-index: 800;
   }
 }

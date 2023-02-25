@@ -5,7 +5,6 @@
   position: relative;
   top: 2rem;
   width: 100%;
-  
 }
 
 .program_name {
@@ -18,8 +17,7 @@
 
 .program_description {
   text-align: center;
-  font-family: 'Alegreya', serif;
-  
+  font-family: "Alegreya", serif;
 }
 
 .program_background {
@@ -80,12 +78,22 @@
   border-style: none;
   height: 2.5rem;
   background-color: white;
-  font-family: 'Alegreya', serif;
+  font-family: "Alegreya", serif;
   font-weight: bold;
-
-
 
   &:hover {
     background-color: grey;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #categories {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
   }
 }
