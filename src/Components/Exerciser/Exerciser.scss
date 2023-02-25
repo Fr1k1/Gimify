@@ -1,10 +1,7 @@
 #main {
-  
   padding-top: 1.2rem;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
-
-
 
   justify-content: space-between;
 }
@@ -74,5 +71,21 @@
     left: 74rem;
     height: 80rem;
     z-index: 5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-text {
+    flex-direction: column;
+    position: inherit;
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_exerciser_pic {
+    height: 20rem;
+    width: auto;
   }
 }

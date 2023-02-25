@@ -36,3 +36,60 @@ $crvena: #820000;
     color: $crvena; //ova je pretamna, promijeniti kasnije
   }
 }
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    background-color: yellowgreen;
+    padding: 1rem;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 10rem;
+    width: 5rem;
+    display: flex;
+    width: 100%;
+    left: -1rem;
+    top: 0rem;
+  }
+
+  .navbar_parent {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #bars {
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    z-index: 500;
+    margin-bottom: 0rem;
+  }
+
+  #bars_div {
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.bars {
+  z-index: 999;
+}
