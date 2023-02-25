@@ -9,3 +9,11 @@
   width: 50%;
   height: 35rem;
 }
+
+@media screen and (max-width: 768px) {
+  #exerciser1,
+  #exerciser2 {
+    width: 100%;
+    height: 20rem;
+  }
+}

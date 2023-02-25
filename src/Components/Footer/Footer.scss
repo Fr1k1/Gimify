@@ -67,3 +67,25 @@
     color: black;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #icons {
+    svg {
+      color: black;
+    }
+  }
+
+  #main_footer {
+    flex-direction: column;
+  }
+
+  #footer_logo {
+    top: 4rem;
+  }
+
+  #footer_div {
+    h3 {
+      top: 3rem;
+    }
+  }
+}
