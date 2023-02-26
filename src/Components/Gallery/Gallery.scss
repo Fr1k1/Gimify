@@ -9,7 +9,7 @@ $background: #8a0b20;
   justify-content: center;
   flex-direction: column;
   border-radius: 8px;
-  margin: 0 auto ;
+  margin: 0 auto;
   img {
     border-radius: 8px;
 
@@ -41,6 +41,24 @@ $background: #8a0b20;
 
 #dude_pic,
 #barbells_pic,
-#girl_pic {         //za ove treba malo dulje da se ucitaju, dodaj animaciju
+#girl_pic {
+  //za ove treba malo dulje da se ucitaju, dodaj animaciju
   height: 40rem;
+}
+
+@media screen and (max-width: 768px) {
+  #gallery_main {
+
+    position: relative;
+    top:2rem;
+    
+    img {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .row {
+    flex-direction: column;
+  }
 }
