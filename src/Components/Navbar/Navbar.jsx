@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import Bars from "../../assets/bars_navbar.png";
@@ -21,6 +21,10 @@ function OtherPage() {
 
 
 const Navbar = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
     const mobile = window.innerWidth <= 768 ? true : false;
     const [menuOpened, setMenuOpened] = useState(false);

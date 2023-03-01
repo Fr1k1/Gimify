@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 import Footer from '../Footer/Footer';
 import ProgramInfo from '../ProgramInfo/ProgramInfo';
 import ProgramName from '../ProgramName/ProgramName';
@@ -8,6 +9,10 @@ import "./ProgramDetails.scss";
 
 const ProgramDetails = ({ programDetails }) => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   let { name } = useParams()
   return (
     <div >
@@ -15,7 +20,7 @@ const ProgramDetails = ({ programDetails }) => {
       {programDetails.filter((program) => program.name === name)
         .map((program, index) => (
 
-          <div key={index}>
+          <div key={index} id="details_main">
 
 
             <ProgramName name={program.name} /> 
