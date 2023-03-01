@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Courgette&family=Lobster&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
 ::-webkit-scrollbar {
   display: none;
@@ -14,4 +14,5 @@ $tamnoSiva: #2c2b29;
 
 body {
   background-color: $tamnoSiva;
+  overflow-x: hidden;
 }

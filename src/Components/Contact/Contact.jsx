@@ -33,13 +33,13 @@ const Contact = () => {
             <form action="" id="contact_form" ref={form}>
 
                 <input type="text" name="name" placeholder='Ime' />
-                <br />
+               
                 <input type="text" name="surname" placeholder='Prezime' />
-                <br />
+              
                 <input type="email" name="user_email" placeholder='Email adresa' />
-                <br />
+               
                 <textarea name="description" id="description" cols="30" rows="15" placeholder='Opišite što Vas zanima'></textarea>
-                <br />
+            
                 <input type="button" id="send_button" value="Pošalji" onClick={sendEmail}></input>
 
 

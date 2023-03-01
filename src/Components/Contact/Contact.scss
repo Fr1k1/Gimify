@@ -16,6 +16,7 @@
     height: 3rem;
     border-style: none;
     padding-left: 0.5rem;
+    margin: 20px 0 20px 0;
   }
 
   textarea {
@@ -34,7 +35,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  margin: 20px auto !important;
   &:hover {
     background-color: red;
     transform: scale(1.09);
@@ -70,4 +71,15 @@
   font-family: "Alegreya", serif;
   font-weight: bold;
   font-size: x-large;
+}
+
+@media screen and (max-width: 768px) {
+  #contact_form {
+    width: 20rem;
+
+    input {
+      height: 3rem;
+      
+    }
+  }
 }
