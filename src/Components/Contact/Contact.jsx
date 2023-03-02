@@ -8,15 +8,19 @@ const Contact = () => {
 
     const form = useRef();
 
-    const sendEmail = (e) => {
+    async function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_hdkrryu', 'template_wcw299c', form.current, 'Z_0-Cs6CmcZEESvvj')
-            .then(() => {
-                console.log("Uspjesno poslano");
-            }, (err) => {
-                console.log("Doslo je do pogreske" + err.text);
-            });
+        try {
+
+            await emailjs.sendForm('service_hdkrryu', 'template_wcw299c', form.current, 'Z_0-Cs6CmcZEESvvj')
+            console.log("Uspjesno poslano");
+        }
+
+        catch (err) {
+            console.log("Doslo je do pogreske" + err.text);
+        }
+
     };
 
 
