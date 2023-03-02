@@ -37,7 +37,8 @@
   align-items: center;
   margin: 20px auto !important;
   &:hover {
-    background-color: red;
+    background-color: black;
+    color:white;
     transform: scale(1.09);
     transition: all 0.3s;
   }
@@ -81,5 +82,9 @@
       height: 3rem;
       
     }
+  }
+
+  .text_decoration_div {
+    font-size: large;
   }
 }
