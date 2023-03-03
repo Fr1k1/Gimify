@@ -6,21 +6,20 @@
   justify-content: space-between;
 }
 
-.main-text {
-  //display:flex;
-  //flex-direction: column;
+.main_text {
+
   gap: 2rem;
   font-size: 6rem;
   font-weight: bold;
   color: white;
   text-overflow: inherit;
+  
 }
 
 .other_text {
   color: white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: red;
-  //text-shadow: 4px 4px 0 red;
 }
 
 .transparent_text {
@@ -35,7 +34,6 @@
   height: auto;
   top: 6rem;
   right: 0rem;
-  //dodaj one krugove kak si na portfolio
   z-index: 500;
 }
 
@@ -75,7 +73,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main-text {
+  .main_text {
     flex-direction: column;
     position: inherit;
   }
@@ -92,8 +90,9 @@
     
   }
 
-  .main-text {
+  .main_text {
     position: relative;
     z-index: 800;
+    
   }
 }

@@ -9,8 +9,7 @@
   border-radius: 8px;
   position: relative;
   top: 3rem;
-  //bottom: 2rem;
-
+  
   input {
     border-radius: 8px;
     height: 3rem;
@@ -36,9 +35,10 @@
   display: flex;
   align-items: center;
   margin: 20px auto !important;
+  font-family: "Alegreya", serif;
   &:hover {
     background-color: black;
-    color:white;
+    color: white;
     transform: scale(1.09);
     transition: all 0.3s;
   }
@@ -80,7 +80,6 @@
 
     input {
       height: 3rem;
-      
     }
   }
 

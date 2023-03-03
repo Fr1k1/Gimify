@@ -2,11 +2,9 @@ $bijela: #ffff;
 $crvena: #820000;
 
 .navbar_parent {
-  //background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
-  //top:-2rem;
 }
 
 #navbar {
@@ -33,7 +31,7 @@ $crvena: #820000;
   }
 
   a:hover {
-    color: $crvena; //ova je pretamna, promijeniti kasnije
+    color: $crvena; 
   }
 }
 

@@ -26,11 +26,8 @@
 }
 
 .program_strength_icon {
-  //ikone je potrebno premjestiti desno
   width: 5rem;
-  // position: relative;
   width: 5rem;
-  //left: 14rem
 }
 
 .program_cardio_icon {
@@ -48,7 +45,6 @@
 .program {
   height: 15rem;
   width: 20rem;
-  //background-color: red;
   background-image: url("../../assets/Rectangle_for_programs.png");
   display: flex;
   flex-direction: column;

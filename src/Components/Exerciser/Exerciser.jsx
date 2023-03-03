@@ -13,7 +13,7 @@ const Exerciser = () => {
 
       <Header />
 
-      <div className="main-text">
+      <div className="main_text">
 
         <div>
           <span className='transparent_text'>LAVE</span> <br />
