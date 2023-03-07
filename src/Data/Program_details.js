@@ -19,7 +19,7 @@ export const programDetails = [
 
         slider_images: [StrengthPic, StrengthPic2, StrengthPic3],
 
-        opis: "Ovaj program namijenjen je za ljude koji žele brzo ojačati i izgledati što bolje za što kraće vrijeme obzirom da se uz pravilnu prehranu i pravilno treniranje može lakoupravljati nečijom masom.",
+        description: "Ovaj program namijenjen je za ljude koji žele brzo ojačati i izgledati što bolje za što kraće vrijeme obzirom da se uz pravilnu prehranu i pravilno treniranje može lakoupravljati nečijom masom.",
 
         list_items: [
             "Već nakon nekoliko dana vidi se napredak", "Brzo dobivanje mase", "Razvijanje mišića"
@@ -34,7 +34,7 @@ export const programDetails = [
 
         slider_images: [CardioPic, CardioPic2, CardioPic3],
 
-        opis: "Ovaj program namijenjen je za ljude koji žele steći kondiciju i za one koji ne mogu trčati.",
+        description: "Ovaj program namijenjen je za ljude koji žele steći kondiciju i za one koji ne mogu trčati.",
 
         list_items: [
             "Steknite kondiciju", "Naučite pravilno disati i trčati"
@@ -49,7 +49,7 @@ export const programDetails = [
 
         slider_images: [HealthPic, HealthPic2, HealthPic3],
 
-        opis: "Naučite više o pravilnom disanju, kretanju i zdravom načinu života.",
+        description: "Naučite više o pravilnom disanju, kretanju i zdravom načinu života.",
 
         list_items: [
             "Razgibajte svoje tijelo kako bi održali zdravlje",
@@ -67,7 +67,7 @@ export const programDetails = [
 
         slider_images: [FatBurningPic, FatBurningPic2, FatBurningPic3],
 
-        opis: "Naučite više o zdravoj i pravilnoj prehrani, skidanju kilograma i kako biti fit.",
+        description: "Naučite više o zdravoj i pravilnoj prehrani, skidanju kilograma i kako biti fit.",
 
         list_items: [
             "Skinite višak kilograma",

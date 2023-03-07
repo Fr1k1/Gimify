@@ -29,7 +29,7 @@ const ProgramDetails = ({ programDetails }) => {
 
             <div id="program_info">
 
-            <ProgramInfo description={program.opis} items={program.list_items} />
+            <ProgramInfo description={program.description} items={program.list_items} />
 
             </div>
 
