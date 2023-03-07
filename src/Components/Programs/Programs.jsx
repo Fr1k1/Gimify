@@ -10,7 +10,7 @@ const Programs = () => {
 
             <div id="categories">
                 {programsData.map((program, i) => (    
-                    <Program ikona={program.ikona} naslov={program.naslov} opis={program.opis} key={i} />
+                    <Program icon={program.icon} naslov={program.naslov} opis={program.opis} key={i} />
                 ))}
             </div>
 

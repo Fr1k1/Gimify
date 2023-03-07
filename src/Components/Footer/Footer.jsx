@@ -40,9 +40,9 @@ const Footer = () => {
 
                 <div id="icons">
 
-                    <a href="https://www.instagram.com/martinfriscic/">   <FontAwesomeIcon icon={faInstagram} className="ikona" /> </a>
-                    <a href="https://github.com/Fr1k1">  <FontAwesomeIcon icon={faGithub} className="ikona" /> </a>
-                    <a href="https://www.linkedin.com/in/martin-fri%C5%A1%C4%8Di%C4%87-6164ab202/"> <FontAwesomeIcon icon={faLinkedin} className="ikona" /></a>
+                    <a href="https://www.instagram.com/martinfriscic/">   <FontAwesomeIcon icon={faInstagram} className="icon" /> </a>
+                    <a href="https://github.com/Fr1k1">  <FontAwesomeIcon icon={faGithub} className="icon" /> </a>
+                    <a href="https://www.linkedin.com/in/martin-fri%C5%A1%C4%8Di%C4%87-6164ab202/"> <FontAwesomeIcon icon={faLinkedin} className="icon" /></a>
 
                 </div>
 

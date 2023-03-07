@@ -2,10 +2,10 @@ import "./Program.scss";
 import { Link } from "react-router-dom";
 
 
-const Program = ({ ikona, naslov, opis }) => {
+const Program = ({ icon, naslov, opis }) => {
 
     return (<div className="program">
-        <span>{ikona}</span>
+        <span>{icon}</span>
         <span className='program_name' >{naslov}</span>
         <span className='program_description' >{opis}</span>
 

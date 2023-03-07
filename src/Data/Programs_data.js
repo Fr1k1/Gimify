@@ -9,7 +9,7 @@ import background from "../../src/assets/Rectangle_6.png";
 export const programsData = [
 
     {
-        ikona: (
+        icon: (
             <img src={strength_icon} alt="" className="program_icon program_strength_icon" />
         ),
 
@@ -25,7 +25,7 @@ export const programsData = [
     },
 
     {
-        ikona: (
+        icon: (
             <img src={cardio_icon} alt="" className="program_icon program_cardio_icon" />
         ),
 
@@ -41,7 +41,7 @@ export const programsData = [
     },
 
     {
-        ikona: (
+        icon: (
             <img src={health_icon} alt="" className="program_icon program_health_icon" />
         ),
 
@@ -58,7 +58,7 @@ export const programsData = [
     },
 
     {
-        ikona: (
+        icon: (
             <img src={fire_icon} alt="" className="program_icon program_fat_burning_icon" />
         ),
 
