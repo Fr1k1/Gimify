@@ -1,7 +1,3 @@
-#strength_program_main {
-  margin: 0;
-}
-
 #slider {
   justify-content: center;
   align-items: center;
@@ -45,44 +41,7 @@ h1 {
   font-family: "Alegreya", serif;
 }
 
-#program_info {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  background-color: #d8d9cf;
-  position: relative;
-  top: 5rem;
 
-  border-radius: 8px;
-  margin: 0 auto;
-  width: 80%;
-
-  h3 {
-    color: #f47018;
-    font-size: x-large;
-    font-family: "Alegreya", serif;
-  }
-
-  li {
-    font-size: large;
-    font-weight: bold;
-    font-family: "Alegreya", serif;
-
-  }
-
-  ul {
-    padding-left: 1.5rem;
-  }
-
-  p {
-    font-family: "Alegreya", serif;
-    font-weight: bold;
-  }
-
-  #price_tag {
-    color:red;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .slider {

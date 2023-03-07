@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Map.scss";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 

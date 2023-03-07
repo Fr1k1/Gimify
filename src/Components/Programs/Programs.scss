@@ -7,18 +7,7 @@
   width: 100%;
 }
 
-.program_name {
-  color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
-  -webkit-text-stroke: 1px black;
-  text-align: left;
-}
 
-.program_description {
-  text-align: center;
-  font-family: "Alegreya", serif;
-}
 
 .program_background {
   width: 20rem;
@@ -42,16 +31,6 @@
   width: 2.3rem;
 }
 
-.program {
-  height: 15rem;
-  width: 20rem;
-  background-image: url("../../assets/Rectangle_for_programs.png");
-  display: flex;
-  flex-direction: column;
-  color: white;
-  justify-content: space-between;
-  z-index: 800;
-}
 
 #categories {
   display: flex;
@@ -68,21 +47,7 @@
   text-align: center;
 }
 
-.find_more_btn {
-  margin-bottom: 1.1rem;
-  border-radius: 8px;
-  border-style: none;
-  height: 2.5rem;
-  background-color: white;
-  font-family: "Alegreya", serif;
-  font-weight: bold;
 
-  &:hover {
-    background-color: grey;
-    transform: scale(1.2);
-    transition: all 0.3s;
-  }
-}
 
 @media screen and (max-width: 768px) {
   #categories {
