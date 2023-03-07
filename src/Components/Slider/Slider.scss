@@ -1,7 +1,16 @@
 @media screen and (max-width: 768px) {
-    .slider {
-        height: 200px !important;
-        width: 90% !important;
+  .slider {
+    height: 200px;
+    width: 90%;
+  }
 
+  #slider {
+    .nextButton {
+      right: 0.5rem;
+    }
+
+    .previousButton {
+      left: 0.5rem;
     }
   }
+}
