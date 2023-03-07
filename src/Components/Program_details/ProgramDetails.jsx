@@ -31,6 +31,10 @@ const ProgramDetails = ({ programDetails }) => {
 
             <ProgramInfo description={program.description} items={program.list_items} />
 
+            <h3>Cijena:</h3>
+
+            <h3 id="price_tag"> {program.price}</h3>
+
             </div>
 
             <Footer/>

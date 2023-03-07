@@ -26,6 +26,8 @@ export const programDetails = [
 
         ],
 
+        price: "20 € mjesečno",
+
 
     },
 
@@ -40,6 +42,9 @@ export const programDetails = [
             "Steknite kondiciju", "Naučite pravilno disati i trčati"
 
         ],
+
+        price: "18 € mjesečno",
+
 
 
     },
@@ -58,6 +63,9 @@ export const programDetails = [
 
         ],
 
+        price: "24 € mjesečno (u cijenu uključeni recepti za zdravu prehranu)",
+
+
 
     },
 
@@ -74,6 +82,9 @@ export const programDetails = [
             "Naučite više o zdravoj prehrani",
             "Vratite svoje samopouzdanje"
         ],
+
+        price: "25 € mjesečno",
+
 
     },
 

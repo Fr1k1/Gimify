@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Header = () => {
     return (
-        <div className='header'> {/* header u sebi sadrzi logo i navbar radi reusabilityja */}
+        <div className='header'> 
 
             <img src={Logo} alt="" className='logo' />
 
