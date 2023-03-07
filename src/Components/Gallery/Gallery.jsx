@@ -28,8 +28,6 @@ const Gallery = () => {
         <img src={girl} alt="" id='girl_pic' className='col' />
 
       </div>
-      {/*  
-      */}
     </div>
   )
 }
