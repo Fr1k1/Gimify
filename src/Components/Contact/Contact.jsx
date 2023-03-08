@@ -3,6 +3,17 @@ import "./Contact.scss";
 import emailjs from "@emailjs/browser";
 import Map from '../Map/Map';
 import Footer from "../Footer/Footer"
+import toast, { Toaster } from 'react-hot-toast';
+
+
+/*  const mail=document.getElementById("mail_input");
+ const description=document.getElementById("description");
+
+ */
+
+
+
+
 
 const Contact = () => {
 
@@ -11,14 +22,19 @@ const Contact = () => {
     async function sendEmail(e) {
         e.preventDefault();
 
+
         try {
 
             await emailjs.sendForm('service_hdkrryu', 'template_wcw299c', form.current, 'Z_0-Cs6CmcZEESvvj')
+            toast.success("Uspješno poslano");
             console.log("Uspjesno poslano");
+
+
         }
 
         catch (err) {
-            console.log("Doslo je do pogreske" + err.text);
+            console.log("Doslo je do pogreske");
+            toast.error("Nešto je pošlo po krivu");
         }
 
     };
@@ -39,14 +55,22 @@ const Contact = () => {
 
                 <input type="text" name="surname" placeholder='Prezime' />
 
-                <input type="email" name="user_email" placeholder='Email adresa' />
+                <input type="email" name="user_email" placeholder='Email adresa' required id="mail_input" />
 
                 <textarea name="description" id="description" cols="30" rows="15" placeholder='Opišite što Vas zanima'></textarea>
 
                 <input type="button" id="send_button" value="Pošalji" onClick={sendEmail}></input>
 
 
+
+
             </form>
+
+            <div>
+
+                <Toaster position='top-center' />
+
+            </div>
 
             <br /><br />
             <br />

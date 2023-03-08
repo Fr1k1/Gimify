@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "react-animated-slider": "^1.1.4",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
     "react-leaflet": "^4.2.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
