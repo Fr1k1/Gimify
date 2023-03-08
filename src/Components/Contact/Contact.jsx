@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import "./Contact.scss";
 import emailjs from "@emailjs/browser";
 import Map from '../Map/Map';
@@ -6,21 +6,22 @@ import Footer from "../Footer/Footer"
 import toast, { Toaster } from 'react-hot-toast';
 
 
-/*  const mail=document.getElementById("mail_input");
- const description=document.getElementById("description");
-
- */
-
-
-
-
-
 const Contact = () => {
+
+    const [mail, setMail] = useState('');
+    const [description, setDescription] = useState('');
+
 
     const form = useRef();
 
     async function sendEmail(e) {
         e.preventDefault();
+
+        if (mail === '' || description === '') {
+            toast.error("Molim ispunite podatke za mail i opis");
+            return;
+
+        }
 
 
         try {
@@ -55,9 +56,12 @@ const Contact = () => {
 
                 <input type="text" name="surname" placeholder='Prezime' />
 
-                <input type="email" name="user_email" placeholder='Email adresa' required id="mail_input" />
+                <input type="email" name="user_email" placeholder='Email adresa' id="mail_input" required value={mail} onChange={(e) => setMail(e.target.value)} />
 
-                <textarea name="description" id="description" cols="30" rows="15" placeholder='Opišite što Vas zanima'></textarea>
+                <textarea name="description" id="description" cols="30" rows="15" placeholder='Opišite što Vas zanima' value={description}
+                    onChange={(e) => setDescription(e.target.value)}
+
+                ></textarea>
 
                 <input type="button" id="send_button" value="Pošalji" onClick={sendEmail}></input>
 
