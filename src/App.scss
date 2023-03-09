@@ -18,3 +18,13 @@ body {
   background-color: $tamnoSiva;
   overflow-x: hidden;
 }
+
+@media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+
+  body {
+    position: relative;
+  }
+}
