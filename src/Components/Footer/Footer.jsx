@@ -36,7 +36,7 @@ const Footer = () => {
 
                 <img src={Logo} alt="" id='footer_logo' />
 
-                <h3><Link to='http://localhost:3000/contact' className='text'>Kontaktirajte nas</Link></h3>
+                <h3><Link to='/contact' className='text'>Kontaktirajte nas</Link></h3>
 
                 <div id="icons">
 
