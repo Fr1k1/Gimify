@@ -12,9 +12,13 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  #main_practicers_div {
+    flex-direction: column;
+  }
   #exerciser1,
   #exerciser2 {
-    width: 100%;
+    width: 100%; //ovo promjeni, flex-direction column na glavnom divu ako budu jedan ispod drugog
     height: 20rem;
   }
 }
