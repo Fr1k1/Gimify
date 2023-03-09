@@ -46,7 +46,7 @@ const Navbar = () => {
             </li>
 
             <li onClick={() => setMobileNavbar(false)}>
-              <Link to="http://localhost:3000/#programs_div" onClick={OtherPage}>
+              <Link to="/#programs_div" onClick={OtherPage}>
                 Programi
               </Link>
             </li>
