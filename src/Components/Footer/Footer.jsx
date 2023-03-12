@@ -17,6 +17,7 @@ const Footer = () => {
     const [marginTop, setMarginValue] = useState('5rem');
 
     useEffect(() => {
+        window.scrollTo(0, 0)
         const currentPage = window.location.href;
 
         if (currentPage.includes('gallery'))
