@@ -46,11 +46,10 @@ $background: #8a0b20;
 
 @media screen and (max-width: 768px) {
   #gallery_main {
-
     position: relative;
-    top:2rem;
+    top: 2rem;
     padding: 0.5rem;
-    
+
     img {
       width: 100%;
       margin-left: 0;
@@ -59,5 +58,18 @@ $background: #8a0b20;
 
   .row {
     flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #ext_pic,
+  #people_pic {
+    height: 20rem;
+  }
+
+  #dude_pic,
+  #barbells_pic,
+  #girl_pic {
+    height: 30rem;
   }
 }

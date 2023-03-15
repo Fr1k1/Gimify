@@ -7,13 +7,11 @@
 }
 
 .main_text {
-
   gap: 2rem;
   font-size: 6rem;
   font-weight: bold;
   color: white;
   text-overflow: inherit;
-  
 }
 
 .other_text {
@@ -63,7 +61,6 @@
   }
 
   .rectangle_light {
-    
     position: absolute;
     top: 0rem;
     left: 74rem;
@@ -86,13 +83,17 @@
     position: relative;
     width: 25rem;
     right: 0rem;
-    top:2rem;
-    
+    top: 2rem;
   }
 
   .main_text {
     position: relative;
     z-index: 800;
-    
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .rectangle_light {
+    display: none;
   }
 }
