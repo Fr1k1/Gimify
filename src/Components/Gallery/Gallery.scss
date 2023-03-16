@@ -61,4 +61,19 @@ $background: #8a0b20;
   }
 }
 
+@media only screen and (max-width: 1280px) {
+  #ext_pic,
+  #people_pic {
+    height: 17rem;
+  }
 
+  #dude_pic,
+  #barbells_pic,
+  #girl_pic {
+    height: 22rem;
+  }
+
+  #runners_pic {
+    height: 30rem;
+  }
+}
