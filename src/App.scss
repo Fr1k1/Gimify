@@ -6,7 +6,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 ::-webkit-scrollbar {
   display: none;
@@ -20,7 +20,19 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  html, body {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  body {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  html,
+  body {
     overflow-x: hidden !important;
   }
 
