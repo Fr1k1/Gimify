@@ -1,32 +1,26 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import Bars from "../../assets/bars_navbar.png";
 
 function OtherPage() {
-
   setTimeout(() => {
-    const element = document.getElementById('programs_div');
+    const element = document.getElementById("programs_div");
     if (element) {
       const offset = element.offsetTop;
       window.scrollTo({
         top: offset,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   }, 500);
-
-
 }
 
-
 const Navbar = () => {
-
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
-  
   const [mobileNavbar, setMobileNavbar] = useState(false);
 
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -34,9 +28,8 @@ const Navbar = () => {
   return (
     <>
       {mobileNavbar === false && mobile === true ? (
-
-        <div id='bars_div' onClick={() => setMobileNavbar(true)}>
-          <img src={Bars} alt="" id="bars" ></img>
+        <div id="bars_div" onClick={() => setMobileNavbar(true)}>
+          <img src={Bars} alt="" id="bars"></img>
         </div>
       ) : (
         <div className="navbar_parent">
@@ -61,7 +54,6 @@ const Navbar = () => {
       )}
     </>
   );
+};
 
-}
-
-export default Navbar
+export default Navbar;
