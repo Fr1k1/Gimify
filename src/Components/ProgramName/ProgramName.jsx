@@ -1,5 +1,4 @@
 import React from "react";
-import "./ProgramName.scss";
 
 const ProgramName = (props) => {
   return (
