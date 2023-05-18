@@ -1,6 +1,6 @@
 import React from "react";
 import "./Programs.scss";
-import { programsData } from "../../Data/Programs_data";
+import { programsData } from "../../Data/ProgramsData";
 import Program from "../Program/Program";
 
 const Programs = () => {

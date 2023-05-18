@@ -8,8 +8,8 @@ import { Route, Routes } from "react-router-dom";
 import Gallery from "./Components/Gallery/Gallery";
 import Header from "./Components/Header/Header";
 import Contact from "./Components/Contact/Contact";
-import ProgramDetails from "./Components/Program_details/ProgramDetails";
-import { programDetails } from "./Data/Program_details";
+import ProgramDetails from "./Components/ProgramDetails/ProgramDetails";
+import { programDetails } from "./Data/ProgramDetails";
 
 function App() {
   return (
